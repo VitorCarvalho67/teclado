@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 139, 139, 0.726);
+}
+
+.teclado{
+    display: flex;
+    flex-direction: row;
+}
+
+.oitava{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+
+.branca{
+    height: 300px;
+    width: 50px;
+    background-color: #fff;
+    border: solid 1px black;
+}
+
+.preta{
+    position: absolute;
+    background-color: #000;
+    height: 160px;
+    width: 30px;
+}
+
+[cs]{
+    left: 35px;
+}
+
+[ds]{
+    left: 85px;
+}
+
+[fs]{
+    left: 185px;
+}
+
+[gs]{
+    left: 235px;
+}
+
+[as]{
+    left: 285px;
+}
+
+.selecionada{
+    background-color: #070;
+}
